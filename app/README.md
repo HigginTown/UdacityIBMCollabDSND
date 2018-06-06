@@ -5,7 +5,6 @@ _Build an application to provide [Community Content](https://dataplatform.ibm.co
 
 To get started, we'll take you through a sample Python Flask app, help you set up a development environment and deploy to IBM Cloud. 
 
-All of the code 
 
 ## Prerequisites
 
@@ -37,7 +36,7 @@ You'll need the following:
 
 Now you're ready to start working with the app. Clone the repo and change to the directory where the sample app is located.
   ```
-git clone https://github.com
+git clone https://github.com/HigginTown/UdacityIBMCollabDSND.git
   ```
 
 Peruse the files in the directory to familiarize yourself with the contents.
@@ -90,22 +89,21 @@ Replace the *API-endpoint* in the command with an API endpoint from the followin
 
 Login to your IBM Cloud account
 
-  ```
+```
 cf login
   ```
 
 From within the *get-started-python* directory push your app to IBM Cloud
-  ```
+```
 cf push
-  ```
+```
 
 This can take a minute. If there is an error in the deployment process you can use the command `cf logs <Your-App-Name> --recent` to troubleshoot.
 
 When deployment completes you should see a message indicating that your app is running.  View your app at the URL listed in the output of the push command.  You can also issue the
-  ```
+```
 cf apps
-  ```
-  command to view your apps status and see the URL.
+```
 
-  ```
+  command to view your apps status and see the URL.
 
