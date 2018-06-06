@@ -45,7 +45,7 @@ Peruse the files in the directory to familiarize yourself with the contents.
 
 Install the dependencies listed in the [requirements.txt]() file to be able to run the app locally.
 
-You can optionally use a [virtual environmen](https://packaging.python.org/installing/#creating-and-using-virtual-environments) to avoid having these dependencies clash with those of other Python projects or your operating system.
+You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) to avoid having these dependencies clash with those of other Python projects or your operating system.
   ```
 pip install -r requirements.txt
   ```
@@ -104,6 +104,13 @@ When deployment completes you should see a message indicating that your app is r
 ```
 cf apps
 ```
+
+
+
+
+
+
+
 
   command to view your apps status and see the URL.
 
